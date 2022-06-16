@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.4rem;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+}
+
+.navigation ul li {
+    list-style: none;
+    position: relative;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation ul li a:hover::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: var(--green);
+    width: 0.2rem;
+    height: 2rem;
+    left: -0.6rem;
+}

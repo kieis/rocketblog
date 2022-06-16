@@ -1,0 +1,30 @@
+.homeContainer {
+    background-color: var(--purple-bg);
+    height: 58.7rem;
+    padding-top: 6.4rem;
+    padding-inline: 13.686rem;
+}
+
+.homeContent {
+    padding-top: 6.4rem;
+    justify-self: flex-start;
+    gap: 3rem;
+}
+
+.homeImage {
+    display: flex;
+    justify-self: flex-end;
+}
+
+.homeImage img {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .homeContainer {
+        height: auto;
+    }
+    .homeImage {
+        justify-self: center;
+    }
+}

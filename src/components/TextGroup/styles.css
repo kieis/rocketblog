@@ -1,0 +1,38 @@
+.textGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.textGroup h1 {
+    color: var(--button-bg);
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+}
+
+.textGroup p {
+    color: var(--light-purple);
+    font-family: 'Roboto';
+    font-size: 1.8rem;
+}
+
+.textGroup a {
+    display: flex;
+    align-items: center;
+    color: var(--button-bg);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 1.8rem;
+    transition-duration: .4s;
+}
+
+.textGroup a:hover {
+    color: rgb(124, 54, 190);
+    scale: 2;
+}
+
+.textGroup a img {
+    padding-left: 0.8rem;
+}

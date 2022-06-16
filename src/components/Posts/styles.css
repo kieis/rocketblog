@@ -1,0 +1,26 @@
+.postContainer {
+    padding-inline: 13.686rem;
+    padding-block: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+}
+
+.postSideContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.postSideContent hr {
+    background-color: #F2E7FA;
+    height: 1px;
+}
+
+.post-grid-gap {
+    gap: 13rem;
+}
+
+.post-side-grid-gap {
+    gap: 3rem;
+}

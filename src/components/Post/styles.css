@@ -1,0 +1,25 @@
+.postContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.postContent span,
+.postContent p{
+    font-size: 1.6rem;
+}
+
+.postContent span {
+    line-height: 1.9rem;
+}
+
+.postContent p{
+    line-height: 2.4rem;
+}
+
+.postContent h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: var(--purple-bg);
+}

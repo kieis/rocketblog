@@ -1,0 +1,6 @@
+hr {
+    width: 100%;
+    background-color: var(--green);
+    height: .6rem;
+    border: none;
+}
