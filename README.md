@@ -1,8 +1,9 @@
-<h1 align="center">RocketBlog<br>
-<img style="width: 50%" src="https://i.imgur.com/D3tFlXf.png"/>
+<h1 align="center">RocketBlog<br><br>
+<img style="width: 100%" src="https://i.imgur.com/D3tFlXf.png"/>
+ <br>
 </h1>
 
-<h3 align="center">Rocketseat Challenge</h3>
+<h4 align="center">Rocketseat Challenge: RocketBlog</h3>
 
 ## Technologys
 - [React](https://reactjs.org)
@@ -13,7 +14,7 @@
 
 ## Clone Repository
 ```bash
-$ git clone https://github.com/kieis/nlw-return-impulse
+$ git clone https://github.com/kieis/rocketblog
 ```
 
 ## Install
@@ -23,7 +24,7 @@ npm run dev
 ```
 
 ## Preview
-[Click here](https://)
+[Vercel Preview](https://)
 
 ## Reference
  - [Challenge](https://efficient-sloth-d85.notion.site/Desafio-RocketBlog-807e38809814423e80469b080444db5e)
